@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.89260925.css",
+    "main.js": "/portfolio/static/js/main.798797d5.js",
+    "static/js/453.6320ecc5.chunk.js": "/portfolio/static/js/453.6320ecc5.chunk.js",
+    "static/media/dheeraj.jpg": "/portfolio/static/media/dheeraj.9035b0e54bde60807c56.jpg",
+    "static/media/sf-agentforceSpecialist.pdf": "/portfolio/static/media/sf-agentforceSpecialist.f05d845d3e54b3a41ff7.pdf",
+    "static/media/sf-administrator.pdf": "/portfolio/static/media/sf-administrator.411092c9a2786c2e1e5c.pdf",
+    "static/media/sf-businessAnalyst.pdf": "/portfolio/static/media/sf-businessAnalyst.011601ef8f894514f6a0.pdf",
+    "static/media/sf-AIAssociate.pdf": "/portfolio/static/media/sf-AIAssociate.00726e8be3d5d2f7857e.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.d9228c4e6770439ecf3c.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.89260925.css.map": "/portfolio/static/css/main.89260925.css.map",
+    "main.798797d5.js.map": "/portfolio/static/js/main.798797d5.js.map",
+    "453.6320ecc5.chunk.js.map": "/portfolio/static/js/453.6320ecc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89260925.css",
+    "static/js/main.798797d5.js"
+  ]
+}
