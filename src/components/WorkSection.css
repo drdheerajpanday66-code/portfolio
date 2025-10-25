@@ -1,0 +1,96 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-item {
+    background: var(--panel-bg);
+    border-radius: 14px;
+    border: 2px solid var(--accent);
+    box-shadow: 0 2px 16px rgba(var(--accent-rgb), 0.25);
+    padding: 18px 20px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+.experience-item:hover {
+    border-color: var(--accent-3);
+    box-shadow: 0 6px 32px rgba(var(--accent-3-rgb), 0.63);
+}
+
+.experience-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.experience-company-post h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+.experience-company-post h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-3);
+}
+.experience-duration {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--panel-bg);
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: 1px solid var(--accent-3);
+    color: var(--text);
+    font-size: 0.98rem;
+}
+
+.work-svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--accent);
+}
+
+.experience-responsibility-list {
+    margin-top: 10px;
+    padding-left: 0;
+}
+.experience-responsibility-list li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--text);
+    transition: color 0.2s;
+}
+
+.experience-responsibility-list li:hover span {
+    color: var(--accent-3);
+    filter: contrast(20);
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    section {
+        padding: 28px 10px;
+        scroll-margin-top: 120px;
+    }
+}
+
+@media (max-width: 745px) {
+    section {
+        padding: 16px 2px;
+        scroll-margin-top: 140px;
+    }
+}
+
+@media (max-width: 400px) {
+}
+
+/* Add at the end of your CSS file */
+@media (max-width: 440px) {
+}
