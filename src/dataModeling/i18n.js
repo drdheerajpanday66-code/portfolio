@@ -30,7 +30,7 @@ const {
     CREDENTIAL_TEXTS,
     CONTACT_TEXTS,
     FOOTER_TEXTS,
-} = getTexts("spanish"); // You can change "spanish" to getBrowserLanguage() to auto-detect
+} = getTexts(getBrowserLanguage());
 
 export {
     HEADER_TEXTS,
