@@ -1,6 +1,6 @@
 import "./HomeSection.css";
 import picPath from "../assets/images/dheeraj.jpg";
-import { HOME_TEXTS } from "../textHelper/i18n";
+import { HOME_TEXTS } from "../dataModeling/i18n";
 
 function HomeSection() {
     const {

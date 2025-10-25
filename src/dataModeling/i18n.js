@@ -1,6 +1,6 @@
-import * as EnglishTexts from "../textHelper/english";
-import * as hindiTexts from "../textHelper/hindi";
-import * as spanishTexts from "../textHelper/spanish";
+import * as EnglishTexts from "./texts/english";
+import * as hindiTexts from "./texts/hindi";
+import * as spanishTexts from "./texts/spanish";
 
 const getBrowserLanguage = () => {
     const lang = navigator.language || navigator.userLanguage;
@@ -30,7 +30,7 @@ const {
     CREDENTIAL_TEXTS,
     CONTACT_TEXTS,
     FOOTER_TEXTS,
-} = getTexts(getBrowserLanguage());
+} = getTexts("spanish"); // You can change "spanish" to getBrowserLanguage() to auto-detect
 
 export {
     HEADER_TEXTS,

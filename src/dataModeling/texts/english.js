@@ -1,3 +1,8 @@
+import aiAssociate from "../../assets/certificates/sf-AIAssociate.pdf";
+import aiSpecialist from "../../assets/certificates/sf-agentforceSpecialist.pdf";
+import businessAnalyst from "../../assets/certificates/sf-businessAnalyst.pdf";
+import administrator from "../../assets/certificates/sf-administrator.pdf";
+
 /**
  * Header Component Texts in English
  */
@@ -130,10 +135,19 @@ const WORK_EXPERIENCE_TEXTS = {
  */
 
 const CERTIFICATIONS = [
-    "Salesforce Certified AI Associate",
-    "Salesforce Certified Agentforce Specialist",
-    "Salesforce Certified Platform Administrator",
-    "Salesforce Certified Business Analyst",
+    {
+        name: "Salesforce Certified AI Associate",
+        link: aiAssociate,
+    },
+    {
+        name: "Salesforce Certified Agentforce Specialist",
+        link: aiSpecialist,
+    },
+    {
+        name: "Salesforce Certified Platform Administrator",
+        link: administrator,
+    },
+    { name: "Salesforce Certified Business Analyst", link: businessAnalyst },
 ];
 
 const EDUCATIONS = [
